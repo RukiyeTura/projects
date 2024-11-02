@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Time Optimizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Cooking Time</h1>
+
+    <div id="steps-container"></div>
+
+ 
+    <button id="add-step-btn">Add Step</button>
+    <button id="calculate-btn">Calculate</button>
+    <button id="download-btn">Download Recipe as JSON</button>
+    <input type="file" id="upload-json" accept=".json">
+
+
+    <div id="results">
+        <h2>Results</h2>
+        <p>Idiot Way: <span id="async-time">0</span> minutes</p>
+        <p>Parallel Way: <span id="real-time">0</span> minutes</p>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+[
+    {
+        "step_id": 1,
+        "time": 2,
+        "needs_chef": true,
+        "depends_on": [],
+        "description": "Mix dry ingredients"
+    },
+    {
+        "step_id": 2,
+        "time": 10,
+        "needs_chef": false,
+        "depends_on": [],
+        "description": "Temp butter"
+    },
+    {
+        "step_id": 3,
+        "time": 3,
+        "needs_chef": true,
+        "depends_on": [],
+        "description": "Mix wet ingredients"
+    },
+    {
+        "step_id": 4,
+        "time": 5,
+        "needs_chef": true,
+        "depends_on": [],
+        "description": "Mix wet and dry mixtures"
+    },
+    {
+        "step_id": 5,
+        "time": 1,
+        "needs_chef": true,
+        "depends_on": [],
+        "description": "Add choc chips"
+    },
+    {
+        "step_id": 6,
+        "time": 60,
+        "needs_chef": false,
+        "depends_on": [],
+        "description": "Chill dough"
+    },
+    {
+        "step_id": 7,
+        "time": 10,
+        "needs_chef": true,
+        "depends_on": [],
+        "description": "Shape dough"
+    },
+    {
+        "step_id": 8,
+        "time": 15,
+        "needs_chef": false,
+        "depends_on": [],
+        "description": "Preheat oven"
+    },
+    {
+        "step_id": 9,
+        "time": 15,
+        "needs_chef": false,
+        "depends_on": [],
+        "description": "Bake"
+    }
+]
